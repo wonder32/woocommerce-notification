@@ -68,8 +68,8 @@ jQuery(document).ready(function($){
 				var last_order = window.localStorage.getItem('last_order');
 				
 				for(var i = 0; i < diff; i++){
-					var order_url_print = $('#the-list tr[id="post-'+(last_order - i)+'"] td[class^="order_actions"] a[class^="print-preview-button"]').first().attr('href');
-					window.open(order_url_print);  
+					var order_url = $('#the-list tr[id="post-'+(last_order - i)+'"] td[class^="order_actions"]').getElementsByClassName("print-preview-button").first().attr('href');
+					window.open(order_url);  
 				}
 			}
 			

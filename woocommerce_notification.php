@@ -23,8 +23,10 @@ if(in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get
 			public function order_notification(){
 				if(empty($this->notification)){
 					$this->notification = plugin_dir_url( __FILE__ ) .'notification.mp3';
-					wp_enqueue_script('order_notification_js', plugin_dir_url( __FILE__ ) . '/js/order_notification.js', array('jquery') );
-					wp_enqueue_style('order_notification_css',  plugin_dir_url( __FILE__ ) . '/css/order_notification.css' );
+					wp_register_script('order_notification_js', plugin_dir_url( __FILE__ ) . '/js/order_notification.js', array('jquery') );
+                                        wp_enqueue_script('order_notification_js');
+					wp_register_style('order_notification_css',  plugin_dir_url( __FILE__ ) . '/css/order_notification.css' );
+                                        wp_enqueue_style('order_notification_css');
 					wp_localize_script('order_notification_js', 'notification', array('sound' => $this->notification));
 				}
 			}
