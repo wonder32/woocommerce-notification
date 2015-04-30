@@ -8,7 +8,7 @@ Author: Wonder32
 Author URI: www.puddinq.mobi/wip/stefan-schotvanger
 */
 
-if(in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+//if(in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
 
 	if (!class_exists( 'woocommerce_notification' ) ) {
 		
@@ -34,4 +34,4 @@ if(in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get
 	}
 
 	new woocommerce_notification();
-}
+//}
