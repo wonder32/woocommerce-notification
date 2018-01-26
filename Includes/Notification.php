@@ -20,14 +20,15 @@ class Notification
 	}
 
 	public function order_notification(){
-		if(empty($this->notification)) {
-			$this->notification = plugin_dir_url( WCNOTIFYFILE ) . 'notification.mp3';
-		}
+
 		$settings = get_option('woocommerce-notification');
-		
+
+		$sound = '';
 		if (isset($settings['activated']['wcnotify_sound'])) {
-			$sound = plugin_dir_url( WCNOTIFYFILE ) . 'notification.mp3';
+			$sound = plugin_dir_url( WCNOTIFYFILE ) . 'sound/notification.mp3';
 		}
+
+		$visual = '';
 		if (isset($settings['activated']['wcnotify_visual'])) {
 			$visual = true;
 		}
