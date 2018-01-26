@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce Notification\n"
-"POT-Creation-Date: 2018-01-25 22:45+0100\n"
-"PO-Revision-Date: 2018-01-25 22:47+0100\n"
+"POT-Creation-Date: 2018-01-26 18:40+0100\n"
+"PO-Revision-Date: 2018-01-26 18:41+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: Includes/AdminPage.php:19
 msgid "Woocommerce Notifications"
-msgstr ""
+msgstr "WooCommerce kennisgevingen"
 
 #: Includes/AdminPage.php:20
 msgid "Notifications"
@@ -30,11 +30,12 @@ msgstr "Meldingen"
 
 #: Includes/AdminPage.php:48
 msgid "Types of notification."
-msgstr ""
+msgstr "Soorten kennisgeving."
 
-#: Includes/AdminPage.php:49 Includes/AdminPage.php:103
-msgid "select the types of notofication you would like te activate"
-msgstr ""
+#: Includes/AdminPage.php:49 Includes/AdminPage.php:76
+#: Includes/AdminPage.php:104
+msgid "select the types of notification you would like te activate"
+msgstr "Kies de soorten bericht dat u wenst te activeren"
 
 #: Includes/AdminPage.php:59
 msgid "Select parts"
@@ -42,7 +43,7 @@ msgstr "Selecteer onderdelen"
 
 #: Includes/AdminPage.php:60
 msgid "You need to save the settings before they take effect."
-msgstr ""
+msgstr "U moet de instellingen opslaan voordat ze van kracht zijn."
 
 #: Includes/AdminPage.php:62
 msgid "Activate sound notification."
@@ -53,56 +54,56 @@ msgid "Activate visual notification."
 msgstr "Visueel signaal te activeren."
 
 #: Includes/AdminPage.php:75
-msgid "Select the sound to play"
-msgstr "Selecteer het af te spelen geluid"
-
-#: Includes/AdminPage.php:76
-msgid "select the types of notification you would like te activate"
-msgstr "Kies de soorten bericht dat u wenst te activeren"
+msgid "Sound effect"
+msgstr "Geluidseffect"
 
 #: Includes/AdminPage.php:85
 msgid "Sound"
-msgstr ""
+msgstr "Geluid"
 
-#: Includes/AdminPage.php:86 Includes/AdminPage.php:114
+#: Includes/AdminPage.php:86 Includes/AdminPage.php:115
 msgid "A Dropdown list"
 msgstr "Keuzelijst"
 
 #: Includes/AdminPage.php:88
-msgid "Alarm"
-msgstr "Alarm"
+msgid "Bell"
+msgstr "Klok"
 
 #: Includes/AdminPage.php:89
 msgid "Bird"
 msgstr "Vogel"
 
 #: Includes/AdminPage.php:90
-msgid "Whistle"
-msgstr ""
+msgid "Emergency"
+msgstr "Noodgeval"
 
-#: Includes/AdminPage.php:102
-msgid "Types of notofication."
-msgstr ""
+#: Includes/AdminPage.php:91
+msgid "Phone"
+msgstr "Telefoon"
 
-#: Includes/AdminPage.php:113
+#: Includes/AdminPage.php:103
+msgid "Visual effect."
+msgstr "Visueel effect"
+
+#: Includes/AdminPage.php:114
 msgid "Visual"
-msgstr ""
-
-#: Includes/AdminPage.php:116
-msgid "Button"
-msgstr ""
+msgstr "Visueel"
 
 #: Includes/AdminPage.php:117
+msgid "Button"
+msgstr "Button"
+
+#: Includes/AdminPage.php:118
 msgid "Button and background"
 msgstr "Button en achtergrond"
 
-#: Includes/AdminPage.php:118
+#: Includes/AdminPage.php:119
 msgid "Animation"
 msgstr "Animatie"
 
-#: Includes/Backend.php:72
+#: Includes/Backend.php:71
 msgid "Woocommerce needs to installed and activated."
-msgstr ""
+msgstr "Woocommerce moet geïnstalleerd en geactiveerd worden."
 
 #: Includes/Settings.php:459
 msgid "Choose File"
@@ -118,7 +119,7 @@ msgstr "Controleer op updates"
 
 #: vendor/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:432
 msgid "View details"
-msgstr ""
+msgstr "Bekijk details"
 
 #: vendor/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:455
 #, php-format
@@ -146,15 +147,15 @@ msgstr "Kon niet bepalen of updates beschikbaar zijn voor %s."
 #: vendor/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:558
 #, php-format
 msgid "Unknown update checker status \"%s\""
-msgstr ""
+msgstr "Onbekende update status \"%s\""
 
 #: vendor/plugin-update-checker/Puc/v4p4/Vcs/PluginUpdateChecker.php:98
 msgid "There is no changelog available."
-msgstr ""
+msgstr "Er is geen changelog beschikbaar"
 
 #. Plugin Name of the plugin/theme
 msgid "WooCommerce Notification"
-msgstr ""
+msgstr "WooCommerce kennisgeving"
 
 #. Plugin URI of the plugin/theme
 msgid "https://www.puddinq.com/plugins/woocommerce-notification/"
@@ -163,6 +164,8 @@ msgstr ""
 #. Description of the plugin/theme
 msgid "Get sound notification in order view when order is made"
 msgstr ""
+"Krijg een geluidssignaal in het bestellingen overzicht als er een order "
+"wordt geplaatst"
 
 #. Author of the plugin/theme
 msgid "Wonder32"
@@ -171,3 +174,9 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "www.puddinq.mobi/wip/stefan-schotvanger"
 msgstr ""
+
+#~ msgid "Select the sound to play"
+#~ msgstr "Selecteer het af te spelen geluid"
+
+#~ msgid "Alarm"
+#~ msgstr "Alarm"

@@ -61,7 +61,7 @@ class Backend
 
 
 	public function load_textdomain() {
-		load_plugin_textdomain( 'woocommerce-notification', false, dirname( plugin_basename(__FILE__) ) . '/languages/' );
+		load_plugin_textdomain( 'woocommerce-notification', false, dirname( plugin_basename(WCNOTIFYFILE) ) . '/languages/' );
 
 	}
 

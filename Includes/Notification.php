@@ -25,7 +25,9 @@ class Notification
 
 		$sound = '';
 		if (isset($settings['activated']['wcnotify_sound'])) {
-			$sound = plugin_dir_url( WCNOTIFYFILE ) . 'sound/notification.mp3';
+			$sound = get_option('woocommerce-notification-sound');
+			
+			$sound = plugin_dir_url( WCNOTIFYFILE ) . 'sound/' . $sound['sound'] . '.mp3';
 		}
 
 		$visual = '';

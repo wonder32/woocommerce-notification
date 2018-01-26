@@ -46,7 +46,7 @@ class AdminPage
 		    array(
 			    'id'    => 'woocommerce-notification',
 			    'title' => __( 'Types of notification.', 'woocommerce-notification' ),
-			    'desc'  => __( 'select the types of notofication you would like te activate',
+			    'desc'  => __( 'select the types of notification you would like te activate',
 				    'woocommerce-notification' ),
 		    )
 	    );
@@ -72,7 +72,7 @@ class AdminPage
 		    $this->settings->add_section(
 			    array(
 				    'id'    => 'woocommerce-notification-sound',
-				    'title' => __( 'Select the sound to play', 'woocommerce-notification' ),
+				    'title' => __( 'Sound effect', 'woocommerce-notification' ),
 				    'desc'  => __( 'select the types of notification you would like te activate', 'woocommerce-notification' ),
 			    )
 		    );
@@ -85,22 +85,23 @@ class AdminPage
 				    'name' => __( 'Sound', 'woocommerce-notification' ),
 				    'desc' => __( 'A Dropdown list', 'woocommerce-notification' ),
 				    'options' => array(
-					    'alarm' => __( 'Alarm', 'woocommerce-notification' ),
+					    'bell' => __( 'Bell', 'woocommerce-notification' ),
 					    'bird'  => __( 'Bird', 'woocommerce-notification' ),
-					    'whistle'  => __( 'Whistle', 'woocommerce-notification' )
+					    'emergency'  => __( 'Emergency', 'woocommerce-notification' ),
+					    'phone'  => __( 'Phone', 'woocommerce-notification' ),
 				    )
 			    )
 		    );
 	    }
 
-	    // Section: Sound Settings.
+	    // Section: Visual Settings.
 	    if ( isset( $settings['activated']['wcnotify_visual'] ) ) {
 
 		    $this->settings->add_section(
 			    array(
 				    'id'    => 'woocommerce-notification-visual',
-				    'title' => __( 'Types of notofication.', 'woocommerce-notification' ),
-				    'desc'  => __( 'select the types of notofication you would like te activate',
+				    'title' => __( 'Visual effect.', 'woocommerce-notification' ),
+				    'desc'  => __( 'select the types of notification you would like te activate',
 					    'woocommerce-notification' ),
 			    )
 		    );

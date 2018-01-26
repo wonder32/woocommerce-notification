@@ -18,6 +18,11 @@ Just install the zip any way your are custom with, updates will be served in the
 
 == Changelog ==
 
+=== 0.0.2 Structure  ===
+* Languages English and Dutch
+* Multiple sounds to choose
+* Some visual options
+
 === 0.0.1 Public  ===
 * Update feature
 * Icon
