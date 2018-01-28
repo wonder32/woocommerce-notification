@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce Notification
 Plugin URI: https://www.puddinq.com/plugins/woocommerce-notification/
 Description: Get sound notification in order view when order is made
-Version: 0.0.2
+Version: 0.0.3
 Author: Wonder32
 Author URI: www.puddinq.mobi/wip/stefan-schotvanger
 License:     GPL2

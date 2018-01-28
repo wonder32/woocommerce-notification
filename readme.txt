@@ -2,21 +2,24 @@
 Contributors: Wonder32
 Tags: WooCommerce, Order notification, plugin
 Requires at least: 4.5
-Tested up to: 4.5.3
-Stable tag: 0.0.1
+Tested up to: 4.9.2
+Stable tag: 4.5
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Get sound notification in order view when order is made
 
 == Description ==
-Leave orderscreen open and get sound notification in order view when order is made
+Leave orderscreen open and optinal get a sound notification in order view when order is made
 
 == Installation ==
 Just install the zip any way your are custom with, updates will be served in the usual way
 
 
 == Changelog ==
+
+=== 0.0.3 Sounds  ===
+* Sounds working, if not selected no sound will be played, if selected the choice of a few sounds is available.
 
 === 0.0.2 Structure  ===
 * Languages English and Dutch

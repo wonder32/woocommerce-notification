@@ -21,15 +21,18 @@
         if (first_order != undefined && cur_ord != null && first_order > cur_ord) {
             var diff = (first_order - cur_ord);
             $('embed').remove();
-            $('body').append('<audio id="notification" src="' + notification.sound + '" preload="auto" loop="true"></audio>');
-            playing = true;
-            var sound = document.getElementById('notification');
-            sound.play();
-            window.localStorage.setItem('last_order', first_order);
+            if (notification.sound != undefined) {
+                $('body').append('<audio id="notification" src="' + notification.sound + '" preload="auto" loop="true"></audio>');
+                playing = true;
+                var sound = document.getElementById('notification');
+                sound.play();
+            }
+
+            window.localStorage.setItem('last_order', cur_ord);
             append_button();
 
             for (var i = 0; i < diff; i++) {
-                $('#the-list tr[id="post-' + (cur_ord + 1 - i) + '"]').css('background-color', 'orange');
+                $('#the-list tr[id="post-' + (first_order - i) + '"]').css('background-color', 'orange');
             }
         }
 
@@ -57,7 +60,7 @@
                     window.open(order_url);
                 }
             }
-
+            window.localStorage.setItem('last_order', first_order);
             $('.notification_container').fadeOut('slow', function () {
                 window.location.reload();
             });
@@ -68,7 +71,7 @@
             if (sound != undefined) {
                 sound.pause();
             }
-
+            window.localStorage.setItem('last_order', first_order);
             $('.notification_container').fadeOut('slow', function () {
                 window.location.reload();
             });

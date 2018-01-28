@@ -5,6 +5,7 @@
 }
 
 .notification_container a:after{
+    font-family: Dashicons;
     content: "\f127";
 }
 .notification_container {
