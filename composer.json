@@ -1,4 +1,18 @@
 {
+  "name": "puddinq/woocommerce-notification",
+  "type": "wordpress-plugin",
+  "version": "v0.0.4",
+  "homepage": "https://www.puddinq.com/plugins/woocommerce-notification/",
+  "authors": [
+    {
+      "name": "Wonder32",
+      "email": "wonder32@puddinq.mobi",
+      "homepage": "https://www.puddinq.nl/wip/stefan-schotvanger/"
+    }
+  ],
+  "require": {
+    "yahnis-elsts/plugin-update-checker": "^4.4"
+  },
   "autoload": {
     "psr-4": {
       "Wcnotify\\": ""

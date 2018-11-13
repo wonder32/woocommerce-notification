@@ -114,9 +114,7 @@ class AdminPage
 				    'name' => __( 'Visual', 'woocommerce-notification' ),
 				    'desc' => __( 'A Dropdown list', 'woocommerce-notification' ),
 				    'options' => array(
-					    'button'      => __( 'Button', 'woocommerce-notification' ),
-					    'background'  => __( 'Button and background', 'woocommerce-notification' ),
-					    'animation'  => __( 'Animation', 'woocommerce-notification' )
+					    'background'      => __( 'Background', 'woocommerce-notification' )
 				    )
 			    )
 		    );

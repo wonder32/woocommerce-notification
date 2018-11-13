@@ -2,7 +2,7 @@
 Contributors: Wonder32
 Tags: WooCommerce, Order notification, plugin
 Requires at least: 4.5
-Tested up to: 4.9.2
+Tested up to: 5.0
 Stable tag: 4.5
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -17,6 +17,13 @@ Just install the zip any way your are custom with, updates will be served in the
 
 
 == Changelog ==
+
+=== 0.0.4 wp5  ===
+* tested for worpress 5.0
+* tested for woocommerce 4.5
+* default settings
+* open multiple orders
+* compare all instead of the last one (thanx! sirmacik)
 
 === 0.0.3 Sounds  ===
 * Sounds working, if not selected no sound will be played, if selected the choice of a few sounds is available.

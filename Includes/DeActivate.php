@@ -16,9 +16,10 @@ class DeActivate
 	public static function activate()
 	{
 
-		add_option('woocommerce-notification');
-		add_option('woocommerce-notification-sound');
-		add_option('woocommerce-notification-visual');
+		add_option('woocommerce-notification', array('activated' => array('wcnotify_sound' => 'wcnotify_sound', 'wcnotify_visual' => 'wcnotify_visual')));
+		add_option('woocommerce-notification-sound', array('sound' => 'bell'));
+		add_option('woocommerce-notification-visual', array('visual' => 'background'));
+
 
 	}
 
