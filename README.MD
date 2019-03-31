@@ -4,7 +4,7 @@
 * get notified when new order is placed
 
 ## Requirements
-- Wordpress
+- WordPress
 - WooCommerce
 
 ## How to use me ?

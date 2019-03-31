@@ -1,0 +1,29 @@
+
+
+#notification_container {
+    text-align: center;
+    float: left;
+    width: 100%;
+    background-color: #A6AAAE;
+    padding: 5px;
+    margin: 0 6px;
+}
+
+#notification_container a.notification-sound:after{
+    font-family: Dashicons;
+    content: "\f127";
+}
+
+#notification_container .button-notification {
+    background: none repeat scroll 0 0 #E73E00 !important;
+    border-color: #992F09 !important;
+    display: inline;
+    padding:8px 30px
+}
+
+
+
+div#notification_counter {
+    width: 100%;
+    text-align: center;
+}

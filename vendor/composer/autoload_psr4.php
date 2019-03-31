@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Wcnotify\\' => array($baseDir . '/'),
+    'WcNotify\\' => array($baseDir . '/src'),
 );

@@ -1,7 +1,7 @@
 {
   "name": "puddinq/woocommerce-notification",
   "type": "wordpress-plugin",
-  "version": "v0.0.4",
+  "version": "v0.0.5",
   "homepage": "https://www.puddinq.com/plugins/woocommerce-notification/",
   "authors": [
     {
@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Wcnotify\\": ""
+      "WcNotify\\": "src/"
     }
   }
 }
